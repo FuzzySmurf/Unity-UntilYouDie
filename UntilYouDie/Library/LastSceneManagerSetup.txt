@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/0-UntilYouDie/Scenes/_preload.unity
+  isLoaded: 1
+  isActive: 1
