@@ -54,7 +54,7 @@ namespace Apex.Input
             {
                 unit = collider.GetUnitFacade();
             }
-
+            
             if (unit != null && unit.isSelectable)
             {
                 GameServices.gameStateManager.unitSelection.ToggleSelected(unit, append);

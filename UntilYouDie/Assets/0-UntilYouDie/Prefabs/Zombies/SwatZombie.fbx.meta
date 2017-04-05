@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: e3ee7e463cee0604b8e04bc8df317ef9
+timeCreated: 1490565622
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm.l
+    100002: arm.r
+    100004: clavicle.l
+    100006: clavicle.r
+    100008: foot.l
+    100010: foot.r
+    100012: foot_ctrl.l
+    100014: foot_ctrl.r
+    100016: hand.l
+    100018: hand.r
+    100020: head
+    100022: leg_IK.l
+    100024: leg_IK.r
+    100026: leg_poletarget.l
+    100028: leg_poletarget.r
+    100030: lower_arm.l
+    100032: lower_arm.r
+    100034: lower_leg.l
+    100036: lower_leg.r
+    100038: lower_mouth
+    100040: neck
+    100042: pelvis
+    100044: Root
+    100046: spine1
+    100048: spine2
+    100050: //RootNode
+    100052: toe.l
+    100054: toe.r
+    100056: upper_leg.l
+    100058: upper_leg.r
+    100060: upper_mouth
+    400000: arm.l
+    400002: arm.r
+    400004: clavicle.l
+    400006: clavicle.r
+    400008: foot.l
+    400010: foot.r
+    400012: foot_ctrl.l
+    400014: foot_ctrl.r
+    400016: hand.l
+    400018: hand.r
+    400020: head
+    400022: leg_IK.l
+    400024: leg_IK.r
+    400026: leg_poletarget.l
+    400028: leg_poletarget.r
+    400030: lower_arm.l
+    400032: lower_arm.r
+    400034: lower_leg.l
+    400036: lower_leg.r
+    400038: lower_mouth
+    400040: neck
+    400042: pelvis
+    400044: Root
+    400046: spine1
+    400048: spine2
+    400050: //RootNode
+    400052: toe.l
+    400054: toe.r
+    400056: upper_leg.l
+    400058: upper_leg.r
+    400060: upper_mouth
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

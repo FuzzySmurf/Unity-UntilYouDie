@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: bc4abe9278262274f863daa6b8fc8d11
+timeCreated: 1490565622
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm.l
+    100002: arm.r
+    100004: clavicle.l
+    100006: clavicle.r
+    100008: foot.l
+    100010: foot.r
+    100012: foot_ctrl.l
+    100014: foot_ctrl.r
+    100016: hand.l
+    100018: hand.l_end
+    100020: hand.r
+    100022: hand.r_end
+    100024: head
+    100026: leg_IK.l
+    100028: leg_IK.l_end
+    100030: leg_IK.r
+    100032: leg_IK.r_end
+    100034: leg_poletarget.l
+    100036: leg_poletarget.l_end
+    100038: leg_poletarget.r
+    100040: leg_poletarget.r_end
+    100042: lower_arm.l
+    100044: lower_arm.r
+    100046: lower_leg.l
+    100048: lower_leg.l_end
+    100050: lower_leg.r
+    100052: lower_leg.r_end
+    100054: lower_mouth
+    100056: lower_mouth_end
+    100058: neck
+    100060: pelvis
+    100062: Root
+    100064: spine1
+    100066: spine2
+    100068: toe.l
+    100070: toe.l_end
+    100072: toe.r
+    100074: toe.r_end
+    100076: upper_leg.l
+    100078: upper_leg.r
+    100080: upper_mouth
+    100082: upper_mouth_end
+    100084: //RootNode
+    100086: Zombie_02
+    100088: Zombie_1
+    400000: arm.l
+    400002: arm.r
+    400004: clavicle.l
+    400006: clavicle.r
+    400008: foot.l
+    400010: foot.r
+    400012: foot_ctrl.l
+    400014: foot_ctrl.r
+    400016: hand.l
+    400018: hand.l_end
+    400020: hand.r
+    400022: hand.r_end
+    400024: head
+    400026: leg_IK.l
+    400028: leg_IK.l_end
+    400030: leg_IK.r
+    400032: leg_IK.r_end
+    400034: leg_poletarget.l
+    400036: leg_poletarget.l_end
+    400038: leg_poletarget.r
+    400040: leg_poletarget.r_end
+    400042: lower_arm.l
+    400044: lower_arm.r
+    400046: lower_leg.l
+    400048: lower_leg.l_end
+    400050: lower_leg.r
+    400052: lower_leg.r_end
+    400054: lower_mouth
+    400056: lower_mouth_end
+    400058: neck
+    400060: pelvis
+    400062: Root
+    400064: spine1
+    400066: spine2
+    400068: toe.l
+    400070: toe.l_end
+    400072: toe.r
+    400074: toe.r_end
+    400076: upper_leg.l
+    400078: upper_leg.r
+    400080: upper_mouth
+    400082: upper_mouth_end
+    400084: //RootNode
+    400086: Zombie_02
+    400088: Zombie_1
+    4300000: Zombie_02
+    9500000: //RootNode
+    13700000: Zombie_02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
