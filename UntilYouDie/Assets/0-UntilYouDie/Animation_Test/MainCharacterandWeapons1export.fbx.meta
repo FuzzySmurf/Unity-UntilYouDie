@@ -1,0 +1,1659 @@
+fileFormatVersion: 2
+guid: d9190ac444cea734fac3c0cb6136a4bb
+timeCreated: 1491457315
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: DEF_arm.L
+    100002: DEF_arm.R
+    100004: DEF_calf.L
+    100006: DEF_calf.L_end
+    100008: DEF_calf.R
+    100010: DEF_calf.R_end
+    100012: DEF_foot.L
+    100014: DEF_foot.R
+    100016: DEF_foot_end.L
+    100018: DEF_foot_end.L_end
+    100020: DEF_foot_end.R
+    100022: DEF_foot_end.R_end
+    100024: DEF_forearm.L
+    100026: DEF_forearm.R
+    100028: DEF_hand.L
+    100030: DEF_hand.L_end
+    100032: DEF_hand.R
+    100034: DEF_head
+    100036: DEF_head_end
+    100038: DEF_neck
+    100040: DEF_pelvis
+    100042: DEF_shoulder.L
+    100044: DEF_shoulder.R
+    100046: DEF_spine01
+    100048: DEF_spine02
+    100050: DEF_thigh.L
+    100052: DEF_thigh.R
+    100054: DEF_WeaponBone
+    100056: DEF_WeaponBone_end
+    100058: leg_controll.L
+    100060: leg_controll.R
+    100062: leg_ik.L
+    100064: leg_ik.L_end
+    100066: leg_ik.R
+    100068: leg_ik.R_end
+    100070: leg_pole_target.L
+    100072: leg_pole_target.L_end
+    100074: leg_pole_target.R
+    100076: leg_pole_target.R_end
+    100078: Main_Character
+    100080: Main_Character_Armature
+    100082: //RootNode
+    100084: Root
+    400000: DEF_arm.L
+    400002: DEF_arm.R
+    400004: DEF_calf.L
+    400006: DEF_calf.L_end
+    400008: DEF_calf.R
+    400010: DEF_calf.R_end
+    400012: DEF_foot.L
+    400014: DEF_foot.R
+    400016: DEF_foot_end.L
+    400018: DEF_foot_end.L_end
+    400020: DEF_foot_end.R
+    400022: DEF_foot_end.R_end
+    400024: DEF_forearm.L
+    400026: DEF_forearm.R
+    400028: DEF_hand.L
+    400030: DEF_hand.L_end
+    400032: DEF_hand.R
+    400034: DEF_head
+    400036: DEF_head_end
+    400038: DEF_neck
+    400040: DEF_pelvis
+    400042: DEF_shoulder.L
+    400044: DEF_shoulder.R
+    400046: DEF_spine01
+    400048: DEF_spine02
+    400050: DEF_thigh.L
+    400052: DEF_thigh.R
+    400054: DEF_WeaponBone
+    400056: DEF_WeaponBone_end
+    400058: leg_controll.L
+    400060: leg_controll.R
+    400062: leg_ik.L
+    400064: leg_ik.L_end
+    400066: leg_ik.R
+    400068: leg_ik.R_end
+    400070: leg_pole_target.L
+    400072: leg_pole_target.L_end
+    400074: leg_pole_target.R
+    400076: leg_pole_target.R_end
+    400078: Main_Character
+    400080: Main_Character_Armature
+    400082: //RootNode
+    400084: Root
+    4300000: Main_Character
+    7400000: Main_Character_Armature|Bereta_reload
+    7400002: Main_Character_Armature|Death
+    7400004: Main_Character_Armature|Death_1
+    7400006: Main_Character_Armature|Death_2
+    7400008: Main_Character_Armature|FamasF1_AIM
+    7400010: Main_Character_Armature|GrenadeLauncher_AIMShoot.001
+    7400012: Main_Character_Armature|HKMP5M_AIM
+    7400014: Main_Character_Armature|idle_01
+    7400016: Main_Character_Armature|OHW_HDA
+    7400018: Main_Character_Armature|Run
+    7400020: Main_Character_Armature|Shooting_AK
+    7400022: Main_Character_Armature|Shotgun_AIM
+    7400024: Main_Character_Armature|Walk
+    9500000: //RootNode
+    13700000: Main_Character
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Main_Character_Armature|Bereta_reload
+      takeName: Main_Character_Armature|Bereta_reload
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|Death
+      takeName: Main_Character_Armature|Death
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|Death_1
+      takeName: Main_Character_Armature|Death_1
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|Death_2
+      takeName: Main_Character_Armature|Death_2
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|FamasF1_AIM
+      takeName: Main_Character_Armature|FamasF1_AIM
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|GrenadeLauncher_AIMShoot.001
+      takeName: Main_Character_Armature|GrenadeLauncher_AIMShoot.001
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|HKMP5M_AIM
+      takeName: Main_Character_Armature|HKMP5M_AIM
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|idle_01
+      takeName: Main_Character_Armature|idle_01
+      firstFrame: 1
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|OHW_HDA
+      takeName: Main_Character_Armature|OHW_HDA
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|Run
+      takeName: Main_Character_Armature|Run
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|Shooting_AK
+      takeName: Main_Character_Armature|Shooting_AK
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|Shotgun_AIM
+      takeName: Main_Character_Armature|Shotgun_AIM
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Main_Character_Armature|Walk
+      takeName: Main_Character_Armature|Walk
+      firstFrame: 2
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Character
+        weight: 1
+      - path: Main_Character_Armature
+        weight: 1
+      - path: Main_Character_Armature/Root
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head/DEF_head_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L/DEF_hand.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R/DEF_WeaponBone/DEF_WeaponBone_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L/DEF_calf.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Main_Character_Armature/Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R/DEF_calf.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L/DEF_foot_end.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.L/leg_ik.L/leg_ik.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R/DEF_foot_end.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_controll.R/leg_ik.R/leg_ik.R_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.L/leg_pole_target.L_end
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R
+        weight: 1
+      - path: Main_Character_Armature/Root/leg_pole_target.R/leg_pole_target.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

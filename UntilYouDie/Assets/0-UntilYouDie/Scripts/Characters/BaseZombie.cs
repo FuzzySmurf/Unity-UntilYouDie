@@ -10,24 +10,34 @@ using UnityEngine;
 public class BaseZombie : BaseCharacter
 {
     public GameObject other;
-    private IMovable _unitMovable;
+    //private IMovable _unitMovable;
     private ILoadBalancedHandle _followHandle;
     private IUnitFacade _unit;
-	// Use this for initialization
+    private bool _ignoreApexFirstTime;
+    
 
 	void Awake () {
-	    _unitMovable = this.As<IMovable>();
+	    //_unitMovable = this.As<IMovable>();
 	    _unit = this.GetUnitFacade();
 	    other = GameObject.FindGameObjectWithTag("Player");
+	    _ignoreApexFirstTime = true;
+
 	}
 
+    void Start() {
+    }
+
     void OnEnable() {
-        _followHandle = _unit.Follow(other.transform);
+        if (_ignoreApexFirstTime)
+            _ignoreApexFirstTime = false;
+        else
+            _followHandle = _unit.Follow(other.transform);
     }
 
     void OnDisable() {
         _unit.Stop();
-        _followHandle.Stop();
+        if(_followHandle != null)
+            _followHandle.Stop();
     }
 
 	void Update () {

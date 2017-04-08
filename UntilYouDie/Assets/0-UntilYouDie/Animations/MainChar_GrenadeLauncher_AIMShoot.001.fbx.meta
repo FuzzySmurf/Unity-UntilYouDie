@@ -57,6 +57,7 @@ ModelImporter:
     400048: Root
     7400000: Scene
     9500000: //RootNode
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -64,20 +65,98 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleCurves: 0
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Scene
+      takeName: Scene
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/DEF_pelvis
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_neck/DEF_head
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.L/DEF_arm.L/DEF_forearm.L/DEF_hand.L
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_spine01/DEF_spine02/DEF_shoulder.R/DEF_arm.R/DEF_forearm.R/DEF_hand.R
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_thigh.L
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_thigh.L/DEF_calf.L
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_thigh.R
+        weight: 1
+      - path: Root/DEF_pelvis/DEF_thigh.R/DEF_calf.R
+        weight: 1
+      - path: Root/leg_controll.L
+        weight: 1
+      - path: Root/leg_controll.L/DEF_foot.L
+        weight: 1
+      - path: Root/leg_controll.L/DEF_foot.L/DEF_foot_end.L
+        weight: 1
+      - path: Root/leg_controll.R
+        weight: 1
+      - path: Root/leg_controll.R/DEF_foot.R
+        weight: 1
+      - path: Root/leg_controll.R/DEF_foot.R/DEF_foot_end.R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -113,7 +192,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: Root
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
