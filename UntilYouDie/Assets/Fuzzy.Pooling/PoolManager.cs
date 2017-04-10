@@ -15,18 +15,41 @@ namespace Fuzzy.Pooling
 
         private static PoolManager _instance;
 
+        /// <summary>
+        /// Used to add new Game Objects to the SpawnPool for Pooling.
+        /// </summary>
+        /// <param name="spawnObject">GameObject to add to SpawnPool (will create new spawnobject)</param>
+        /// <param name="spawnHandlerKey">Spawn Handler Key to associate the SpawnObject with.</param>
+        /// <returns>The SpawnObject that was just added.</returns>
         public static SpawnObject AddGOToSpawnPool(GameObject spawnObject, int spawnHandlerKey) {
             return _instance.AddToSpawnPool(spawnObject, spawnHandlerKey);
         }
 
+        /// <summary>
+        /// SpawnObject to Spawn
+        /// </summary>
+        /// <param name="spawnObject">The SpawnObject to Spawn.</param>
+        /// <returns>The SpawnObject that was spawned.</returns>
         public static SpawnObject SpawnGO(SpawnObject spawnObject) {
             return _instance.Spawn(spawnObject);
         }
 
+        /// <summary>
+        /// SpawnObject to spawn at Location.
+        /// </summary>
+        /// <param name="spawnObject">The SpawnObject to Spawn.</param>
+        /// <param name="location">The Transform Location of where this spawnObject will spawn at.</param>
+        /// <returns>The SpawnObject that was spawned.</returns>
         public static SpawnObject SpawnGOAt(SpawnObject spawnObject, Transform location) {
             return _instance.SpawnAt(spawnObject, location);
         }
 
+        /// <summary>
+        /// Assigns a new SpawnLocation to an Existing SpawnHandler.
+        /// </summary>
+        /// <param name="spawnLocation">A New SpawnLocation to use.</param>
+        /// <param name="spawnHandlerKey">An Existing SpawnHandler Key.</param>
+        /// <returns>True if successful. False if handler does not exist.</returns>
         public static bool AssignTransformToSpawnHandler(GameObject spawnLocation, int spawnHandlerKey) {
             bool ret = false;
             SpawnHandler handler = _instance.poolManagerDB.spawnHandlers.FirstOrDefault(s => s.spawnHandlerKey == spawnHandlerKey);
@@ -41,12 +64,16 @@ namespace Fuzzy.Pooling
         /// Creates a new SpawnHandler from an existing object.
         /// </summary>
         /// <param name="spawnHandler">The SpawnHandler to Add.</param>
-        /// <param name="setPoolManagerParent">Should this spawnHandler be a child of the PoolManager?</param>
+        /// <param name="handlerDetails">The rules the spawnHandler will follow for the spawnObjects.</param>
         /// <returns>The Spawn Handler Number.</returns>
         public static int CreateNewSpawnHandler(GameObject spawnHandler, SpawnHandlerDetails handlerDetails) {
             return _instance.CreateSpawnHandler(spawnHandler, handlerDetails);
         }
 
+        /// <summary>
+        /// The SpawnObject to deactivate from the Pool.
+        /// </summary>
+        /// <param name="obj">the object to deactivate.</param>
         public static void DeactivateObjects(SpawnObject obj) {
             _instance.DeactivateObject(obj);
         }

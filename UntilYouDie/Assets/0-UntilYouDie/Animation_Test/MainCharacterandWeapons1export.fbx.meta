@@ -1499,8 +1499,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Main_Character_Armature|Walk
       takeName: Main_Character_Armature|Walk
-      firstFrame: 2
-      lastFrame: 20
+      firstFrame: 1
+      lastFrame: 32
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
