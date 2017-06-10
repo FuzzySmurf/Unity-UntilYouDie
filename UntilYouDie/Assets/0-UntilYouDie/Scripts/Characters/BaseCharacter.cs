@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseCharacter : MonoBehaviour {
-
+public class BaseCharacter : MonoBehaviour
+{
+    public virtual void Reset() {
+        
+    }
 	// Use this for initialization
 	void Start () {
 		

@@ -4,7 +4,8 @@ using System.Linq;
 using Fuzzy.Pooling;
 using UnityEngine;
 
-public class ZombieSpawner : Spawner {
+public class ZombieSpawner : SpawnerBase
+{
 
 	public override void Start () {
 		base.Start();

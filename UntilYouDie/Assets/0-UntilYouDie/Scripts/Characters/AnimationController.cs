@@ -16,15 +16,6 @@ public class AnimationController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private Vector3 lastPosition;
-    void Update()
-    {
-        float velocity = (transform.position - lastPosition).magnitude/Time.deltaTime;
-
-        animator.SetFloat(velocityParameter, velocity);
-        lastPosition = transform.position;
-    }
-
     public void SetTrigger(string parameter)
     {
         animator.SetTrigger(parameter);
@@ -33,5 +24,10 @@ public class AnimationController : MonoBehaviour
     public void SetBoolean(string parameter, bool value)
     {
         animator.SetBool(parameter, value);
+    }
+
+
+    public void SetAnimatorMovement(float distance) {
+        animator.SetFloat(velocityParameter, distance);
     }
 }
