@@ -44,6 +44,9 @@ namespace Fuzzy.Characters.Apex
             Movement();
         }
 
+        /// <summary>
+        /// Uses Left Mouse Click for the momvement, once the mouse button has been released.
+        /// </summary>
         public void Movement() {
             if (!_isCharacterSelected)
                 return;
