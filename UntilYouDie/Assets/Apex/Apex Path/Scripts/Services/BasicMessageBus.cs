@@ -2,10 +2,8 @@
 namespace Apex.Services
 {
     using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+    using System.Collections;
+    using System.Collections.Generic;
     using Apex.LoadBalancing;
 
     /// <summary>
@@ -76,7 +74,7 @@ using System.Text;
                 return;
             }
 
-            for (int i = 0; i < subscribers.Count; i++)
+            for (int i = subscribers.Count - 1; i >= 0; i--)
             {
                 var subscriber = subscribers[i] as IHandleMessage<T>;
                 subscriber.Handle(message);
@@ -124,7 +122,7 @@ using System.Text;
 
         private IEnumerator BalancedPoster<T>(IList<object> subscribers, T message)
         {
-            for (int i = 0; i < subscribers.Count; i++)
+            for (int i = subscribers.Count - 1; i >= 0; i--)
             {
                 var subscriber = subscribers[i] as IHandleMessage<T>;
                 subscriber.Handle(message);

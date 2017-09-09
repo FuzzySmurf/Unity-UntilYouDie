@@ -262,7 +262,7 @@ namespace Apex.Steering.Components
                 _wayPoints.AddWaypoint(position);
                 return;
             }
-            
+
             var from = _isPortaling ? _currentDestination.position : _transform.position;
 
             //Either we don't have a request or this is the first point in a way point route

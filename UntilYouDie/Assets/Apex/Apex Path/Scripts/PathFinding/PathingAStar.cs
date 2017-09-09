@@ -7,6 +7,7 @@ namespace Apex.PathFinding
     using Apex.PathFinding.MoveCost;
     using Apex.Services;
     using Apex.Units;
+    using UnityEngine;
 
     /// <summary>
     /// Pathing engine using the A* algorithm.

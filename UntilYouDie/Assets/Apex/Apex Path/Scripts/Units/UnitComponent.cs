@@ -229,7 +229,7 @@ namespace Apex.Units
 
                 if (rb != null && rb.useGravity)
                 {
-#if UNITY_5
+#if UNITY_5 || UNITY_2017
                     totalOffset -= (2 * coll.contactOffset);
 #else
                     totalOffset -= (2 * Physics.minPenetrationForPenalty);

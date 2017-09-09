@@ -86,8 +86,8 @@ namespace Apex
             target.AddIfMissing<Rigidbody>(false, out rb);
             bool toggleAll = target.AddIfMissing<ApexComponentMaster>(false, out master);
             target.AddIfMissing<HumanoidSpeedComponent>(false);
-            target.AddIfMissing<UnitComponent>(false);
             target.AddIfMissing<SteerableUnitComponent>(false);
+            target.AddIfMissing<UnitComponent>(false);
             target.AddIfMissing<DefaultHeightNavigator>(false);
             target.AddIfMissing<PathOptionsComponent>(false);
             target.AddIfMissing<SteerToAlignWithVelocity>(false);
@@ -194,7 +194,6 @@ namespace Apex
                 return;
             }
 
-            AddIfMissing<InputReceiverBasic, InputReceiverAttribute>(gameWorld, true);
             if (gameWorld.GetComponentInChildren<SelectionRectangleComponent>() == null)
             {
                 var mold = Resources.Load<GameObject>("Prefabs/SelectionRectCustom");
@@ -206,6 +205,8 @@ namespace Apex
                 var selectionRect = GameObject.Instantiate(mold) as GameObject;
                 selectionRect.transform.parent = gameWorld.transform;
             }
+
+            AddIfMissing<InputReceiverBasic, InputReceiverAttribute>(gameWorld, true);
         }
 
         public static void BasicAvoidance(GameObject target, bool ensureGameworld)
@@ -349,14 +350,14 @@ namespace Apex
 #if UNITY_EDITOR
         private static int EnsureLayer(string name, SerializedObject tagManagerAsset)
         {
-#if UNITY_5
+#if UNITY_5 || UNITY_2017
             SerializedProperty layersProp = tagManagerAsset.FindProperty("layers");
 #endif
             int firstVacant = -1;
             SerializedProperty firstVacantProp = null;
             for (int i = 8; i <= 31; i++)
             {
-#if UNITY_5
+#if UNITY_5 || UNITY_2017
                 var sp = layersProp.GetArrayElementAtIndex(i);
 #else
                 var layerPropName = "User Layer " + i;

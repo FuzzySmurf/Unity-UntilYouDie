@@ -4,6 +4,7 @@ using Apex;
 using Apex.LoadBalancing;
 using Apex.Steering;
 using Apex.Units;
+using Fuzzy.Characters;
 using Fuzzy.Helper.Apex;
 using UnityEngine;
 

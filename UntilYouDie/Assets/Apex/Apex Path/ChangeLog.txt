@@ -1,4 +1,19 @@
-﻿v 2.4.5:
+﻿v 2.5.1:
+	- Included correct ApexShared 
+
+v 2.5:
+	- Support for Unity 2017
+
+v 2.4.6:
+	Bug Fixes:
+	- NavigationUnitWithSelection quick start can now be used at runtime without exceptions.
+	- Fixed a bug with pooled load balancer tasks, where such tasks would not repeat as they should.
+	- Fixed a bug with path costs and direct paths (mainly the unobstructed path optimization).
+
+	Improvements:
+	- Removed a number of deprecated messages
+
+v 2.4.5:
 	Bug Fixes:
 	- Added a new Path Options option to units to control whether to optimize path finding in the case of unobstructed paths.
 	  This optimization was made in a previous release, but has the side effect that portals inside the same grid are not evaluated if this optimization is performed.

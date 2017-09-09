@@ -13,13 +13,17 @@ namespace Fuzzy.PlayerController
 
         public Vector3 InputDirection { get; set; }
 
+        public float AngleDirection {
+            get { return Mathf.Atan2(InputDirection.z, InputDirection.x) * Mathf.Rad2Deg; }
+        }
+
         void Awake() {
             _bgImage = GetComponent<Image>();
             _joystickImage = transform.GetChild(0).GetComponent<Image>();
             InputDirection = Vector3.zero;
         }
 
-        public void OnDrag(PointerEventData eventData) {
+        public virtual void OnDrag(PointerEventData eventData) {
             Vector2 pos = Vector2.zero;
             if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
                 _bgImage.rectTransform, eventData.position, eventData.pressEventCamera, out pos)) {
@@ -36,21 +40,39 @@ namespace Fuzzy.PlayerController
                 //Move the image within the bounds. of the background image
                 _joystickImage.rectTransform.anchoredPosition = new Vector3(InputDirection.x * (_bgImage.rectTransform.sizeDelta.x / 3)
                                                                     ,InputDirection.z * (_bgImage.rectTransform.sizeDelta.y / 3));
+
+                //Debug.Log(InputDirection);
+                Debug.Log("Magnitude Value: " + InputDirection.magnitude);
             }
         }
 
         public void OnPointerUp(PointerEventData eventData) {
-            OnDrag(eventData);
-        }
-
-        public void OnPointerDown(PointerEventData eventData) {
             InputDirection = Vector3.zero;
             _joystickImage.rectTransform.anchoredPosition = Vector3.zero;
         }
 
+        public void OnPointerDown(PointerEventData eventData) {
+            OnDrag(eventData);
+        }
+
+        public float Horizontal() {
+            if (InputDirection.x != 0)
+                return InputDirection.x;
+            else
+                return Input.GetAxis(Orchestrator.LevelInputSettings.instance.HORIZONTAL_AXIS);
+        }
+
+        public float Vertical()
+        {
+            if (InputDirection.z != 0)
+                return InputDirection.z;
+            else
+                return Input.GetAxis(Orchestrator.LevelInputSettings.instance.VERTICAL_AXIS);
+        }
+
         public void InvokeMovement() {
             Vector3 dir = Vector3.zero;
-            if(InputDirection != Vector3.zero)
+            //if(InputDirection != Vector3.zero)
 
         }
     }

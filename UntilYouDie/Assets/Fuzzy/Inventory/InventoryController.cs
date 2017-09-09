@@ -29,7 +29,7 @@ namespace Fuzzy.Inventory
 
         void Awake() {
             inventoryPanel = this.gameObject;
-            slotPanel = inventoryPanel.transform.FindChild(SlotsPanel).gameObject;
+            slotPanel = inventoryPanel.transform.Find(SlotsPanel).gameObject;
             _inventoryDatabase = this.gameObject.GetComponent<InventoryDatabase>();
         }
 

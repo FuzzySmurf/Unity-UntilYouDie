@@ -293,6 +293,7 @@ namespace Apex.PathFinding
                 pathSegment.Push(toPos);
                 pathSegment.Push(fromPos);
                 _segments.Add(pathSegment);
+                _currentResult.pathCost = _costProvider.GetHeuristic(fromPos, toPos);
                 return PathingStatus.Complete;
             }
             else if (fromGrid == null)
@@ -307,6 +308,7 @@ namespace Apex.PathFinding
                 pathSegment.Push(toPos);
                 pathSegment.Push(fromPos);
                 _segments.Add(pathSegment);
+                _currentResult.pathCost = _costProvider.GetHeuristic(fromPos, toPos);
                 return PathingStatus.Complete;
             }
 

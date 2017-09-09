@@ -24,11 +24,6 @@ namespace Apex.Services
             get;
             set;
         }
-        int solverIterationCount
-        {
-            get;
-            set;
-        }
 
 	    bool CheckSphere(UnityEngine.Vector3 position, float radius, int layerMask);
 
@@ -159,12 +154,7 @@ namespace Apex.Services
             get { return Physics.bounceThreshold; }
             set { Physics.bounceThreshold = value; }
         }
-        public int solverIterationCount
-        {
-            get { return Physics.defaultSolverIterations; }
-            set { Physics.defaultSolverIterations = value; }
-        }
-
+   
 	    public bool CheckSphere(UnityEngine.Vector3 position, float radius, int layerMask)
         {
             return Physics.CheckSphere(position, radius, layerMask);
@@ -468,7 +458,7 @@ namespace Apex.Services
 
     public sealed class LayerMaskWrapper : ILayerMask
     {
-        private LayerMask _actual;
+        private LayerMask _actual = new LayerMask();
         public int value
         {
             get { return _actual.value; }
