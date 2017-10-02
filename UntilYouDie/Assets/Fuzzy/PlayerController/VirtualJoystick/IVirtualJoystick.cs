@@ -8,6 +8,8 @@ namespace Fuzzy.PlayerController
     {
         Vector3 InputDirection { get; set; }
 
+        float AngleDirection { get; }
+
         float Vertical();
 
         float Horizontal();

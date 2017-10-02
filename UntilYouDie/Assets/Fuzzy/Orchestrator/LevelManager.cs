@@ -12,6 +12,7 @@ namespace Fuzzy.Orchestrator
         private GameObject _player;
         private static LevelManager _instance;
         public VirtualJoystick movementJoystick;
+        public VirtualJoystick aimRotationJoystick;
 
         public static LevelManager instance
         {

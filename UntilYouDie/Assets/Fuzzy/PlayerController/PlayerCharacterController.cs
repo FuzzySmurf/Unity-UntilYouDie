@@ -22,6 +22,7 @@ namespace Fuzzy.PlayerController
         private Quaternion _targetRotation;
 
         public IVirtualJoystick movementJoystick;
+        public IVirtualJoystick aimRotationJoystick;
         private HumanoidSpeedComponent _humanoidSpeedComponent;
         private Rigidbody _rigidbody;
         private Vector3 MoveVector { get; set; }
@@ -40,6 +41,7 @@ namespace Fuzzy.PlayerController
         void Start()
         {
             movementJoystick = Orchestrator.LevelManager.instance.movementJoystick;
+            aimRotationJoystick = Orchestrator.LevelManager.instance.aimRotationJoystick;
             _rigidbody = gameObject.GetComponent<Rigidbody>();
             _rigidbody.maxAngularVelocity = _humanoidSpeedComponent.maxAngularAcceleration;
             _rigidbody.drag = drag;
@@ -64,23 +66,21 @@ namespace Fuzzy.PlayerController
         {
             _characterAnimator.InvokeMovement(MoveVector.magnitude);
             _rigidbody.AddForce(MoveVector * (_humanoidSpeedComponent.GetPreferredSpeed(movementJoystick.InputDirection) * 10));
-
-            ////If the character is moving, invoke animation
-            //if(movementJoystick.InputDirection != Vector3.zero) {
-            //    _characterAnimator.InvokeRun(true);
-            //} else {
-            //    _characterAnimator.InvokeRun(false);
-            //}
-
         }
 
         //Rotate Character to given Angle.
         private void Turn()
         {
             if (Mathf.Abs(_turnInput) > inputDelay) {
-                VirtualJoystick m = movementJoystick as VirtualJoystick;
-                _targetRotation = Quaternion.AngleAxis(-m.AngleDirection + 90, Vector3.up);
+                float JoyStickAngleDirection;
+                if(aimRotationJoystick.InputDirection != Vector3.zero) {
+                    JoyStickAngleDirection = aimRotationJoystick.AngleDirection;
+                } else {
+                    JoyStickAngleDirection = movementJoystick.AngleDirection;
+                }
+                _targetRotation = Quaternion.AngleAxis(-JoyStickAngleDirection + 90, Vector3.up);
             }
+            //this.transform.rotation = Quaternion.FromToRotation(this.transform.position, new Vector3(_targetRotation.x, _targetRotation.y, _targetRotation.z));
             this.transform.rotation = _targetRotation;
         }
 

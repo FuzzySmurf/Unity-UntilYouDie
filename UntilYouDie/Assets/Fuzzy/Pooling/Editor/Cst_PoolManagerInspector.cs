@@ -9,8 +9,10 @@ namespace Fuzzy.Pooling
     public class Cst_PoolManagerInspector : Editor {
         public void OnEnable() {
             //Add the tags to the project when the PoolManager is first used.
+#if (UNITY_EDITOR)
             TagHelper.AddTag(PoolManagerSettings.PoolManagerTagName);
             TagHelper.AddTag(PoolManagerSettings.SpawnHandlerTagName);
+#endif
         }
     }
 }
