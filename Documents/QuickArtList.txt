@@ -1,0 +1,84 @@
+----------------------------------------
+NOTE:
+This List is a generic Model/Assets list needed for UYD Game. 
+This does not include Special Effects, and assets such as Particle Effects. Muzzle Flashes, etc.
+----------------------------------------
+----------------------------------------
+
+MainCharacter
+*Texture
+*Animations
+*--Walking
+*--Running
+*--Straffing (bonus, may not be necessary)
+*--Weapon Stance (AR)
+*--Weapon Stance (Pistol)
+*--Weapon Stance (Heavy)
+*--Weapon Stance (Sword) (not sure if we need this, just writing it in, just because)
+*Model
+
+Enemy 1
+*Texture
+*Animations
+*--Walking
+*--Running
+
+Enemy 2
+*Texture
+*Animations
+*--Walking
+*--Running
+
+Enemy 3
+*Texture
+*Animations
+*--Walking
+*--Running
+
+Enemy 4
+*Texture
+*Animations
+*--Walking
+*--Running
+
+Weapons
+-AR Model
+*-- Texture
+*-- 2d Art Piece (to display on UI)
+-Pistol Model
+*-- Texture
+*-- 2d Art Piece (to display on UI)
+-Grenade Launcher
+*-- Texture
+*-- 2d Art Piece (to display on UI)
+
+MainGameUI
+*Inventory Background
+*Intentory Items (** depends how many items we have, and what types)
+*Joystick Art (generic)
+*Pause Button Menu
+*Health UI (for player)
+*Health UI (for enemies)
+*Health UI (for BossEnemies) (this may not be needed at all)
+
+
+Environment Assets (This is a vague list, as I'm not sure what we need)
+* Trees
+* Bushes
+* Buildings
+* Destroyed Buildings
+* Terrain
+* Boats
+* Desks
+* Vehicles
+
+Main Menu
+* Main Menu Art
+* Buttons
+* Shop UI
+*--Item Textures
+*--Shop Buttons
+*Sub-Menu (this is the menu where you say "start game" "exit" etc. in the mainMenu
+
+
+

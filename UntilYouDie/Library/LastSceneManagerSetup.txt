@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/0-UntilYouDie/Scenes/StoryMode.unity
+- path: Assets/0-UntilYouDie/Scenes/PlayMode.unity
   isLoaded: 1
   isActive: 1

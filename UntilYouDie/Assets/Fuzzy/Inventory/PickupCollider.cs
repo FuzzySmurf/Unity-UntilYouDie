@@ -32,7 +32,7 @@ namespace Fuzzy.Inventory
 
         void Awake() {
             coll = gameObject.GetComponent<Collider>();
-            inventory = new InventoryController();
+            //inventory = new InventoryController();
         }
 
         public void OnTriggerEnter(Collider collider) {

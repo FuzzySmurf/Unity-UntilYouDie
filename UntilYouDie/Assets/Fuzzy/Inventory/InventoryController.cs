@@ -24,7 +24,7 @@ namespace Fuzzy.Inventory
         [PropertyTooltip("the UI Slot that will be used as the background to hold items.")]
         public GameObject inventorySlot;
 
-        public List<GameObject> slots = new List<GameObject>();
+        public List<GameObject> slots; // = new List<GameObject>();
         private InventoryDatabase _inventoryDatabase;
 
         void Awake() {
