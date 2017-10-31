@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,35 @@ namespace Fuzzy.Characters.Animation
         public void IsShooting(bool isShooting)
         {
             _animator.SetBool("shooting", isShooting);
+        }
+
+        public void SetWeaponStanceAnimation(int weaponStanceId)
+        {
+            _animator.SetInteger("WeaponId", weaponStanceId);
+
+            if(weaponStanceId == 0)
+            {
+                IsTriggerEquipWeapon = false;
+            }
+        }
+
+        private bool IsTriggerEquipWeapon = false;
+
+        public void TriggerEquipWeapon(FirearmSettings firearmSettings)
+        {
+            if (IsTriggerEquipWeapon == false)
+            {
+                IsTriggerEquipWeapon = true;
+                StartCoroutine(EquipWeapon(firearmSettings));
+            }
+        }
+
+        public IEnumerator EquipWeapon(FirearmSettings firearmSettings)
+        {
+            Debug.Log("Weapon is being equipped!! " + firearmSettings.WeaponId);
+            SetWeaponStanceAnimation(firearmSettings.WeaponId);
+            yield return new WaitForSeconds(firearmSettings.Anim_EquipWeapon);
+            firearmSettings.IsWeaponEquipped = true;
         }
     }
 }

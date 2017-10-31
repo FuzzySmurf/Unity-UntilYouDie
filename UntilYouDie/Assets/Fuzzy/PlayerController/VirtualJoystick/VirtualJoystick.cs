@@ -8,8 +8,10 @@ namespace Fuzzy.PlayerController
 
     public class VirtualJoystick : MonoBehaviour, IVirtualJoystick
     {
-        private Image _bgImage;
-        private Image _joystickImage;
+        protected Image _bgImage;
+        protected Image _joystickImage;
+        protected Color _originalJoystickColor;
+
 
         public Vector3 InputDirection { get; set; }
 
@@ -17,9 +19,10 @@ namespace Fuzzy.PlayerController
             get { return Mathf.Atan2(InputDirection.z, InputDirection.x) * Mathf.Rad2Deg; }
         }
 
-        void Awake() {
+        public virtual void Awake() {
             _bgImage = GetComponent<Image>();
             _joystickImage = transform.GetChild(0).GetComponent<Image>();
+            _originalJoystickColor = _joystickImage.color;
             InputDirection = Vector3.zero;
         }
 
@@ -40,13 +43,10 @@ namespace Fuzzy.PlayerController
                 //Move the image within the bounds. of the background image
                 _joystickImage.rectTransform.anchoredPosition = new Vector3(InputDirection.x * (_bgImage.rectTransform.sizeDelta.x / 3)
                                                                     ,InputDirection.z * (_bgImage.rectTransform.sizeDelta.y / 3));
-
-                //Debug.Log(InputDirection);
-                Debug.Log("Magnitude Value: " + InputDirection.magnitude);
             }
         }
 
-        public void OnPointerUp(PointerEventData eventData) {
+        public virtual void OnPointerUp(PointerEventData eventData) {
             InputDirection = Vector3.zero;
             _joystickImage.rectTransform.anchoredPosition = Vector3.zero;
         }
@@ -68,12 +68,6 @@ namespace Fuzzy.PlayerController
                 return InputDirection.z;
             else
                 return Input.GetAxis(Orchestrator.LevelInputSettings.instance.VERTICAL_AXIS);
-        }
-
-        public void InvokeMovement() {
-            Vector3 dir = Vector3.zero;
-            //if(InputDirection != Vector3.zero)
-
         }
     }
 }

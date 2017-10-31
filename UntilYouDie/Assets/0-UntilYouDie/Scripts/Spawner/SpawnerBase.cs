@@ -7,7 +7,7 @@ using Fuzzy.Pooling;
 public class SpawnerBase : MonoBehaviour
 {
     public SpawnHandlerDetails handlerDetails;
-    private int _spawnHandlerKey;
+    protected int _spawnHandlerKey;
 
     public List<GameObject> SpawnLocations;
     public List<GameObject> SpawnObjects;
@@ -40,5 +40,4 @@ public class SpawnerBase : MonoBehaviour
                 PoolManager.AddGOToSpawnPool(obj, _spawnHandlerKey);
             }
     }
-
 }

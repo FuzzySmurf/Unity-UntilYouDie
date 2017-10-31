@@ -63,6 +63,11 @@ namespace Fuzzy.Inventory
             return bOk;
         }
 
+        public void TriggerUI()
+        {
+            gameObject.SetActive(!gameObject.active);
+        }
+
         private InventoryItem GetItemFromInventory(ItemObject item) {
             return _inventoryDatabase.listOfItems.FirstOrDefault(x => x.itemObject == item);
         }

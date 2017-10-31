@@ -17,7 +17,6 @@ namespace Fuzzy.Entities
 
         public virtual void Reset() {
             ItemObjectID = 2;
-            Debug.Log("This is a test of the reset function");
         }
 
         /// <summary>

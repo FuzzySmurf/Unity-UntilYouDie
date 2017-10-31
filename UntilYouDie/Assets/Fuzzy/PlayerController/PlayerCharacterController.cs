@@ -1,9 +1,8 @@
-﻿using Apex.Steering.Components;
+﻿//using Apex.Steering.Components;
 using Fuzzy.Characters.Animation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using UnityEngine;
 
 namespace Fuzzy.PlayerController
@@ -17,13 +16,14 @@ namespace Fuzzy.PlayerController
     {
         public void Reset() { }
 
-        public float drag = 0.5f;
-        public float rotationSpeed = 75.0f;
         private Quaternion _targetRotation;
+        public int characterSpeed = 100;
+        public float rotationSpeed = 5.0f;
 
+        [HideInInspector]
+        public VirtualJoystick_Threshold aimRotationJoystick;
         public IVirtualJoystick movementJoystick;
-        public IVirtualJoystick aimRotationJoystick;
-        private HumanoidSpeedComponent _humanoidSpeedComponent;
+
         private Rigidbody _rigidbody;
         private Vector3 MoveVector { get; set; }
         private CharacterAnimator _characterAnimator;
@@ -31,10 +31,9 @@ namespace Fuzzy.PlayerController
         private Vector3 velocity = Vector3.zero;
         private float _turnInput;
         public float inputDelay = 0.1f;
-        private float _forwardInput;
+        public BaseFirearm Weapon;
 
         public void Awake() {
-            _humanoidSpeedComponent = this.GetComponent<HumanoidSpeedComponent>();
             _characterAnimator = this.GetComponent<CharacterAnimator>();
         }
 
@@ -43,10 +42,8 @@ namespace Fuzzy.PlayerController
             movementJoystick = Orchestrator.LevelManager.instance.movementJoystick;
             aimRotationJoystick = Orchestrator.LevelManager.instance.aimRotationJoystick;
             _rigidbody = gameObject.GetComponent<Rigidbody>();
-            _rigidbody.maxAngularVelocity = _humanoidSpeedComponent.maxAngularAcceleration;
-            _rigidbody.drag = drag;
             _targetRotation = this.transform.rotation;
-            _turnInput = _forwardInput = 0.0f;
+            _turnInput = 0.0f;
         }
 
         void Update()
@@ -56,6 +53,7 @@ namespace Fuzzy.PlayerController
 
             GetInputs();
             Turn();
+            InvokeRotationThreshold();
         }
 
         private void FixedUpdate() {
@@ -65,14 +63,14 @@ namespace Fuzzy.PlayerController
         private void Move()
         {
             _characterAnimator.InvokeMovement(MoveVector.magnitude);
-            _rigidbody.AddForce(MoveVector * (_humanoidSpeedComponent.GetPreferredSpeed(movementJoystick.InputDirection) * 10));
+            _rigidbody.AddForce(MoveVector * characterSpeed);
         }
 
         //Rotate Character to given Angle.
         private void Turn()
         {
             if (Mathf.Abs(_turnInput) > inputDelay) {
-                float JoyStickAngleDirection;
+                float JoyStickAngleDirection = 0.0f;
                 if(aimRotationJoystick.InputDirection != Vector3.zero) {
                     JoyStickAngleDirection = aimRotationJoystick.AngleDirection;
                 } else {
@@ -80,14 +78,39 @@ namespace Fuzzy.PlayerController
                 }
                 _targetRotation = Quaternion.AngleAxis(-JoyStickAngleDirection + 90, Vector3.up);
             }
-            //this.transform.rotation = Quaternion.FromToRotation(this.transform.position, new Vector3(_targetRotation.x, _targetRotation.y, _targetRotation.z));
-            this.transform.rotation = _targetRotation;
+            this.transform.rotation = Quaternion.Lerp(this.transform.rotation, _targetRotation, rotationSpeed * Time.deltaTime);
+        }
+
+        private void InvokeRotationThreshold()
+        {
+            if (aimRotationJoystick.HasPassedThreshold())
+            {
+                if (Weapon.firearmSettings.IsWeaponEquipped == false) {
+                    //Invoke Weapon Equip, and Equip Weapon.
+                    _characterAnimator.TriggerEquipWeapon(Weapon.firearmSettings);
+                } else
+                {
+                    //If weapon Is Equipped...
+                    Weapon.FireWeapon();
+                }   
+            }
+            else
+            {
+                if(Weapon.firearmSettings.IsWeaponEquipped)
+                {
+                    Weapon.firearmSettings.IsWeaponEquipped = false;
+                    _characterAnimator.SetWeaponStanceAnimation(0);
+                }
+            }
         }
 
         //Store Virtual Movement Joystick values seperately for use.
         private void GetInputs()
         {
             _turnInput = movementJoystick.Horizontal();
+            //If the rotation looks to weird, maybe i will remove these 2 lines...?
+            if (_turnInput == 0)
+                _turnInput = aimRotationJoystick.Horizontal();
         }
 
         private Vector3 PoolInput()
