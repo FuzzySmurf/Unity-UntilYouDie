@@ -4,18 +4,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using Fuzzy.Weapon;
 
 namespace Fuzzy.Characters.Animation
 {
+
     public class CharacterAnimator : MonoBehaviour
     {
         private Animator _animator;
 
-        public void Awake() {
+        public void Awake()
+        {
             _animator = this.GetComponent<Animator>();
         }
 
-        public void InvokeRun(bool isIdle) {
+        public void InvokeRun(bool isIdle)
+        {
             if (!isIdle)
                 _animator.SetFloat("velocity", 0.0f);
             else
@@ -40,7 +44,7 @@ namespace Fuzzy.Characters.Animation
         {
             _animator.SetInteger("WeaponId", weaponStanceId);
 
-            if(weaponStanceId == 0)
+            if (weaponStanceId == 0)
             {
                 IsTriggerEquipWeapon = false;
             }

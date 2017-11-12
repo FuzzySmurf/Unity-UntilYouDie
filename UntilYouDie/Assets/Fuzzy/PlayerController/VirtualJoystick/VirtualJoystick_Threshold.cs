@@ -16,6 +16,7 @@ namespace Fuzzy.PlayerController
         private string gameObjectName {
             get {
                 return string.Format("{0}_Threshold", this.name);
+                //return this.name;
             }
         }
 
@@ -31,6 +32,7 @@ namespace Fuzzy.PlayerController
         {
             base.Awake();
 
+            Debug.Log("The Name of the Threshold: " + gameObjectName);
             _bgThresholdArea = GameObject.Find(gameObjectName);
             RenderThreshold();
         }

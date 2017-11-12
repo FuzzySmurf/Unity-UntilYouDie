@@ -10,7 +10,7 @@ namespace Fuzzy.Damage
         where T : IAdjustCurrent
     {
         T adjustableAttribute { get; }
-        void DealDamage(IDamageMessage message);
+        void DealDamage(DamageMessage message);
     }
 
     /// <summary>

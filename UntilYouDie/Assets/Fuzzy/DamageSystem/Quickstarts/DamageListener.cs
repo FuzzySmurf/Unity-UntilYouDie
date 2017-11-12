@@ -45,9 +45,11 @@ namespace Fuzzy.Damage
         public virtual void OnTriggerEnter(Collider collider) {
             IDamageMessenger messenger;
 
-            messenger = collider.GetComponent<DamageMessenger>();
+            messenger = collider.GetComponent<IDamageMessenger>();
             if (messenger != null) {
-                DealDamage(messenger.damageMessage);
+                if (messenger.damageMessage.sender.name != this.transform.parent.gameObject.name) {
+                    DealDamage(messenger.damageMessage);
+                }
             }
         }
 
@@ -55,8 +57,8 @@ namespace Fuzzy.Damage
 
         public void OnTriggerExit(Collider collider) {}
 
-        public virtual void DealDamage(IDamageMessage message) {
-            adjustableAttribute.IncreaseCurrent(message.damage);
+        public virtual void DealDamage(DamageMessage message) {
+            adjustableAttribute.IncreaseCurrent(message.damageAmount);
         }
     }
 }

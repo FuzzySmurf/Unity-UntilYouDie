@@ -11,6 +11,7 @@ namespace Fuzzy.Entities
     public abstract partial class ItemObject : SerializedMonoBehaviour
     {
         [OdinSerialize]
+        [BoxGroup("Item Details")]
         [PropertyTooltip("Unique Identifier for 'this' itemObject")]
         [ReadOnly]
         public int ItemObjectID { get; set; }
@@ -18,6 +19,9 @@ namespace Fuzzy.Entities
         public virtual void Reset() {
             ItemObjectID = 2;
         }
+
+        [BoxGroup("Item Details")]
+        public ItemType itemType;
 
         /// <summary>
         /// Description of an item to display to the player.

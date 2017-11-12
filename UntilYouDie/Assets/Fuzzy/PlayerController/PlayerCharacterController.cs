@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Fuzzy.Weapon;
 
 namespace Fuzzy.PlayerController
 {
@@ -88,7 +89,8 @@ namespace Fuzzy.PlayerController
                 if (Weapon.firearmSettings.IsWeaponEquipped == false) {
                     //Invoke Weapon Equip, and Equip Weapon.
                     _characterAnimator.TriggerEquipWeapon(Weapon.firearmSettings);
-                } else
+                }
+                else
                 {
                     //If weapon Is Equipped...
                     Weapon.FireWeapon();

@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Sirenix.Serialization;
 
 namespace Fuzzy.Damage
 {
     public interface IDamageMessenger
     {
-        IDamageMessage damageMessage { get; set; }
+        DamageMessage damageMessage { get; set; }
     }
 }

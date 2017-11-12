@@ -2,6 +2,8 @@
 using System.Collections;
 using Fuzzy.Damage;
 using Sirenix.OdinInspector;
+using Sirenix.Serialization;
+using System;
 
 namespace Fuzzy.Damage
 {
@@ -9,8 +11,21 @@ namespace Fuzzy.Damage
     /// This should be implemented on the Objects that will distribute damage
     /// For Example, Bullets, Arrows, Projectiles, Physical Weapons, etc.
     /// </summary>
-    public abstract class DamageMessenger : SerializedMonoBehaviour, IDamageMessenger
+    [ShowOdinSerializedPropertiesInInspector]
+    public abstract class DamageMessenger : SerializedMonoBehaviour, IDamageMessenger 
     {
-        public IDamageMessage damageMessage { get; set; }
+        [OdinSerialize]
+        public DamageMessage damageMessage { get; set; }
+
+        public virtual void Reset()
+        {
+            damageMessage = new DamageMessage();
+        }
+
+        public virtual void Awake()
+        {
+            if (damageMessage == null)
+                damageMessage = new DamageMessage();
+        }
     }
 }
